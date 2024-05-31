@@ -1,5 +1,6 @@
 import React from "react";
 import Lesson from "./Lesson";
+import ContactForm from "./ContactForm";
 
 class Main extends React.Component {
   render() {
@@ -52,6 +53,10 @@ class Main extends React.Component {
                 />
               );
             })}
+          </div>
+          <div className="contact-container">
+            <h3>Hubungi Kami</h3>
+            <ContactForm />
           </div>
         </div>
       </div>
